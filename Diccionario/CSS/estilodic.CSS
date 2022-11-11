@@ -1,0 +1,149 @@
+body{
+    font-family: Raleway;
+
+}
+
+.elemento{
+    box-shadow: 0 4px 8px rgb(236, 170, 170);
+    float: left;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: rgb(41, 175, 130);
+
+}
+.letra{
+    background-color: rgb(176, 206, 230);
+    color: rgb(110, 24, 110);
+    border: 2px skyblue;
+    float: left;
+    width: 100%;
+    font-size: large;
+}
+
+.letra :hover{
+    background-color: rgb(73, 46, 72);
+    color: white; 
+    
+}
+
+.autor{
+    border: 2px solid skyblue;
+    z-index: 3;
+    padding: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+
+.menu{
+    border: 2px solid skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    z-index: 3;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 18px;
+    top: 0;
+    left: 0;
+    background-color: rgb(123, 183, 231);
+    
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size: small;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(25, 69, 216);
+    transition-duration: 0.5s;
+}
+
+.menu a:hover{
+    font-weight: 800;
+    background: rgb(238, 235, 235);
+    color: rgb(110, 24, 110);
+    border: 6px solid rgb(77, 216, 130);
+    font-size: large;
+    position: fixed;
+
+}
+
+.contenido{
+    border: 2px;
+}
+
+.foto{
+    width: 50%;
+}
+
+.fot{
+    border: 2px;
+}
+
+.autor :hover{
+    background-color: rgb(146, 114, 175);
+    color: blueviolet;
+}
+
+.barra1 {
+    width: 90px;
+    background-color: black;
+    z-index: 2;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+    position: fixed;
+    
+  }
+  
+.barra1 a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s;
+    color: white;
+    font-size: 36px;
+  }
+  
+.barra1 a:hover {
+    background-color: rgb(112, 218, 191);
+  }
+  
+  .activo {
+    background-color: rgb(112, 218, 191)
+  }
+
+  .buscador{
+    margin-left: 80%;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .buscador img{
+    vertical-align: middle;
+  }
+
+  .buscador input{
+    border: 0px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lobster';
+  }
+
+  .buscador input:hover{
+    border: 2px solid rgb(200, 236, 114);
+  }
+
+  .resaltado{
+    background-color: rgb(200, 236, 114);
+    color: aliceblue;
+  }
+
